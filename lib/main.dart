@@ -63,18 +63,6 @@ class HomePage extends StatelessWidget {
                               ?.copyWith(fontWeight: FontWeight.bold),
                         ),
 
-                        const SizedBox(height: 10),
-
-                        Text(
-                          'Aspiring AI/ML Engineer',
-                          textAlign: TextAlign.center,
-                          style: Theme.of(context).textTheme.titleLarge
-                              ?.copyWith(
-                                color: Colors.indigo,
-                                fontWeight: FontWeight.w600,
-                              ),
-                        ),
-
                         const SizedBox(height: 15),
 
                         const Text(
